@@ -51,7 +51,7 @@ int main (){
 		{
 			printf("Case #%d\n", n_teste);
 			for (i = 1; i < 51; i++){
-				if(MA[i][1] > 0){
+				if(MA[1][i] > 0){
 					printaCircuito(MA,i);
 				}
 			}
